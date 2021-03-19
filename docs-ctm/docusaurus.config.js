@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
+  title: 'Mi Sitio',
   tagline: 'The tagline of my site',
   url: 'https://yeikosantamaria.github.io',
   baseUrl: '/ctm/',
@@ -34,7 +34,7 @@ module.exports = {
     algolia: {
       apiKey: 'fb678974e8ef22c982b902f49e4034dc',
       indexName: 'ctm',
-      appid: 'ANXSXRH404',
+      appId: 'ANXSXRH404',
       // Optional: see doc section bellow
       //contextualSearch: true,
 
@@ -100,6 +100,7 @@ module.exports = {
             'https://github.com/yeikosantamaria/ctm/edit/master/docs-ctm/',
         },
         blog: {
+          blogTitle: 'Super Blog',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:

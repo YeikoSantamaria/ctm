@@ -42,15 +42,33 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+<div class="col col--4">
+  <div class="card item shadow--tl">
+  {imgUrl && (
+  <div className={clsx('card_image', styles.feature)}>
+      
+        <img className={styles.featureImage} src={imgUrl} alt={title} />
+      
     </div>
+  )}
+    <div class="card__body">
+      <h4>{title}</h4>
+      <small>
+        {description}
+      </small>
+    </div>
+  </div>
+</div>
+   // <div className={clsx('col col--4', styles.feature)}>
+      // {imgUrl && (
+        //<div className="text--center item shadow--tl">
+          //<img className={styles.featureImage} src={imgUrl} alt={title} />
+        // </div>
+      //)}
+     // <h3>{title}</h3>
+     // <p>{description}</p>
+   // </div>
+
   );
 }
 
@@ -61,7 +79,7 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <header className={clsx('hero hero--primary shadow--tl', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>

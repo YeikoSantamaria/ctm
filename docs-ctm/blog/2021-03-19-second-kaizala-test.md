@@ -15,3 +15,5 @@ date:   2021-03-19 04:20:45 -0500
 <!--truncate-->
 
 * asi, tambien probar si la ultima image de un post es la que se ve en los metadatos de el ´´´URL´´´ /ctm/blog/.
+
+![Docusaurus](/img/undraw_docusaurus_mountain.svg)
