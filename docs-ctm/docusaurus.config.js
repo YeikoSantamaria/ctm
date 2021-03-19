@@ -31,6 +31,18 @@ module.exports = {
         },
       ],
     },
+    algolia: {
+      apiKey: '178a454d6b53aa06f868c7a105969457',
+      indexName: 'ctm',
+      appid:'ANXSXRH404'
+      // Optional: see doc section bellow
+      //contextualSearch: true,
+
+      // Optional: Algolia search parameters
+      //searchParameters: {},
+
+      //... other Algolia params
+    },
     footer: {
       style: 'dark',
       links: [
@@ -92,6 +104,11 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          
+            feedOptions: {
+              type: 'all',
+              copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
