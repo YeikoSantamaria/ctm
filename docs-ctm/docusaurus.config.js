@@ -32,7 +32,7 @@ module.exports = {
       ],
     },
     algolia: {
-      apiKey: '178a454d6b53aa06f868c7a105969457',
+      apiKey: 'fb678974e8ef22c982b902f49e4034dc',
       indexName: 'ctm',
       appid: 'ANXSXRH404',
       // Optional: see doc section bellow
@@ -109,8 +109,8 @@ module.exports = {
               type: 'all',
               title: "Blog de Yeiko",
               description: "El blog que donde yeiko sube cosas intersantes",
-              copyright: `Copyright © ${new Date().getFullYear()} Mi proyecto, Inc. Construido con Docusaurus.`,
-              language: "es-MX",
+              copyright: `Copyright © Mi proyecto, Inc. Construido con Docusaurus.`,
+              language: "es",
             },
         },
         theme: {
