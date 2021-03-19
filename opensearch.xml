@@ -4,8 +4,8 @@
   <ShortName>Mi Sitio</ShortName>
   <Description>Search Mi Sitio</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://yeikosantamaria.github.io/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://yeikosantamaria.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://yeikosantamaria.github.io/opensearch.xml" />
-  <moz:SearchForm>https://yeikosantamaria.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://bucode.com.mx/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://bucode.com.mx/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://bucode.com.mx/opensearch.xml" />
+  <moz:SearchForm>https://bucode.com.mx/</moz:SearchForm>
 </OpenSearchDescription>

@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Blog de Yeiko</title>
-        <link>https://yeikosantamaria.github.io/blog</link>
+        <link>https://bucode.com.mx/blog</link>
         <description>El blog que donde yeiko sube cosas intersantes</description>
         <lastBuildDate>Fri, 19 Mar 2021 09:20:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -11,35 +11,35 @@
         <copyright>Copyright © Mi proyecto, Inc. Construido con Docusaurus.</copyright>
         <item>
             <title><![CDATA[kaizala-test1]]></title>
-            <link>https://yeikosantamaria.github.io/blog/kaizala-test1</link>
+            <link>https://bucode.com.mx/blog/kaizala-test1</link>
             <guid>kaizala-test1</guid>
             <pubDate>Fri, 19 Mar 2021 09:20:45 GMT</pubDate>
             <description><![CDATA[* Hola este es el segundo post que publico con el fin de probar mi automatizacion con kaizala.]]></description>
         </item>
         <item>
             <title><![CDATA[kaizala]]></title>
-            <link>https://yeikosantamaria.github.io/blog/kaizala</link>
+            <link>https://bucode.com.mx/blog/kaizala</link>
             <guid>kaizala</guid>
             <pubDate>Fri, 19 Mar 2021 05:33:45 GMT</pubDate>
             <description><![CDATA[Hola compañeros de BUCODE  Les quiero compartir este post sobre lo mas reciente que tenemos en bucode relacionado a los productos y servcios de que bucode tiene para nuewsgtros queridos clientes]]></description>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://yeikosantamaria.github.io/blog/welcome</link>
+            <link>https://bucode.com.mx/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Thu, 30 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></description>
         </item>
         <item>
             <title><![CDATA[Hello]]></title>
-            <link>https://yeikosantamaria.github.io/blog/hello-world</link>
+            <link>https://bucode.com.mx/blog/hello-world</link>
             <guid>hello-world</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></description>
         </item>
         <item>
             <title><![CDATA[Hola]]></title>
-            <link>https://yeikosantamaria.github.io/blog/hola</link>
+            <link>https://bucode.com.mx/blog/hola</link>
             <guid>hola</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[super post en donde yeiko explica lo que es hacer un super blog!]]></description>
