@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://bucode.com.mx/blog</id>
+    <id>https://yeikosantamaria.github.io/blog</id>
     <title>Blog de Yeiko</title>
     <updated>2021-03-19T09:20:45.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://bucode.com.mx/blog"/>
+    <link rel="alternate" href="https://yeikosantamaria.github.io/blog"/>
     <subtitle>El blog que donde yeiko sube cosas intersantes</subtitle>
-    <icon>https://bucode.com.mx/img/favicon.ico</icon>
+    <icon>https://yeikosantamaria.github.io/img/favicon.ico</icon>
     <rights>Copyright © Mi proyecto, Inc. Construido con Docusaurus.</rights>
     <entry>
         <title type="html"><![CDATA[kaizala-test1]]></title>
         <id>kaizala-test1</id>
-        <link href="https://bucode.com.mx/blog/kaizala-test1"/>
+        <link href="https://yeikosantamaria.github.io/ctm/blog/kaizala-test1"/>
         <updated>2021-03-19T09:20:45.000Z</updated>
         <summary type="html"><![CDATA[* Hola este es el segundo post que publico con el fin de probar mi automatizacion con kaizala.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[kaizala]]></title>
         <id>kaizala</id>
-        <link href="https://bucode.com.mx/blog/kaizala"/>
+        <link href="https://yeikosantamaria.github.io/ctm/blog/kaizala"/>
         <updated>2021-03-19T05:33:45.000Z</updated>
         <summary type="html"><![CDATA[Hola compañeros de BUCODE  Les quiero compartir este post sobre lo mas reciente que tenemos en bucode relacionado a los productos y servcios de que bucode tiene para nuewsgtros queridos clientes]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
-        <link href="https://bucode.com.mx/blog/welcome"/>
+        <link href="https://yeikosantamaria.github.io/ctm/blog/welcome"/>
         <updated>2019-05-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello]]></title>
         <id>hello-world</id>
-        <link href="https://bucode.com.mx/blog/hello-world"/>
+        <link href="https://yeikosantamaria.github.io/ctm/blog/hello-world"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hola]]></title>
         <id>hola</id>
-        <link href="https://bucode.com.mx/blog/hola"/>
+        <link href="https://yeikosantamaria.github.io/ctm/blog/hola"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[super post en donde yeiko explica lo que es hacer un super blog!]]></summary>
     </entry>
