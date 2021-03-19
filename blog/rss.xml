@@ -7,8 +7,8 @@
         <lastBuildDate>Fri, 19 Mar 2021 09:20:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>es-MX</language>
-        <copyright>Copyright © 2021 Mi proyecto, Inc. Construido con Docusaurus.</copyright>
+        <language>es</language>
+        <copyright>Copyright © Mi proyecto, Inc. Construido con Docusaurus.</copyright>
         <item>
             <title><![CDATA[kaizala-test1]]></title>
             <link>https://yeikosantamaria.github.io/ctm/blog/kaizala-test1</link>
