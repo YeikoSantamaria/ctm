@@ -34,7 +34,7 @@ module.exports = {
     algolia: {
       apiKey: '178a454d6b53aa06f868c7a105969457',
       indexName: 'ctm',
-      appid:'ANXSXRH404'
+      appid: 'ANXSXRH404',
       // Optional: see doc section bellow
       //contextualSearch: true,
 
@@ -97,20 +97,20 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/yeikosantamaria/ctm/edit/master/docs-ctm/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/yeikosantamaria/ctm/edit/master/docs-ctm/',
           
             feedOptions: {
               type: 'all',
               title: "Blog de Yeiko",
               description: "El blog que donde yeiko sube cosas intersantes",
               copyright: `Copyright © ${new Date().getFullYear()} Mi proyecto, Inc. Construido con Docusaurus.`,
-              language: "es",
+              language: "es-MX",
             },
         },
         theme: {
