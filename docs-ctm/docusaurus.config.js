@@ -86,7 +86,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Mi proyecto, Inc. Construido con Docusaurus.`,
     },
   },
   presets: [
@@ -107,7 +107,10 @@ module.exports = {
           
             feedOptions: {
               type: 'all',
-              copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+              title: "Blog de Yeiko",
+              description: "El blog que donde yeiko sube cosas intersantes",
+              copyright: `Copyright © ${new Date().getFullYear()} Mi proyecto, Inc. Construido con Docusaurus.`,
+              language: "es",
             },
         },
         theme: {
