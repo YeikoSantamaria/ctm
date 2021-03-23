@@ -1,12 +1,12 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Mi Sitio',
-  tagline: 'The tagline of my site',
-  url: 'https://yeikosantamaria.github.io',
-  baseUrl: '/ctm/',
+  title: 'CTM Quintana Roo',
+  tagline: 'Unidad y trabajo',
+  url: 'https://www.bucode.com.mx',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon_ctm.ico',
   organizationName: 'yeikosantamaria', // Usually your GitHub org/user name.
   projectName: 'ctm', // Usually your repo name.
   themeConfig: {
@@ -14,7 +14,7 @@ module.exports = {
       title: 'My Site',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo_ctm.webp',
       },
       items: [
         {
@@ -25,8 +25,29 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
+          to: 'blog/tags/',
+          label: 'Etiquetas Blog',
+          position: 'right',
+        },
+        { 
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          label: 'Servicios',
+          position: 'left',
+          items: [
+              {
+                label: 'Gestiones',
+              },
+              {
+                label: 'Asesorias',
+              }
+          ],
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],
@@ -45,6 +66,11 @@ module.exports = {
     },
     footer: {
       style: 'dark',
+      logo: {
+        alt: 'logo tipo CTM Quintana Roo',
+        src: 'img/Logo_ctm.png',
+        href: 'https://opensource.facebook.com',
+      },
       links: [
         {
           title: 'Docs',
@@ -95,10 +121,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+           // Please change this to your repo.
           editUrl:
             'https://github.com/yeikosantamaria/ctm/edit/master/docs-ctm/',
-        },
+          
+            showLastUpdateAuthor: true,
+          },
         blog: {
           blogTitle: 'Super Blog',
           showReadingTime: true,
