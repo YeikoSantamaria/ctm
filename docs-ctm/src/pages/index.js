@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Beneficios',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -18,7 +18,7 @@ const features = [
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Asesorias',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
@@ -28,8 +28,9 @@ const features = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Servicios',
     imageUrl: 'img/undraw_docusaurus_react.svg',
+    categoryUrl: 'docs/thank-you',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -39,36 +40,23 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, categoryUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
+  const catgUrl = useBaseUrl(categoryUrl);
   return (
-<div class="col col--4">
-  <div class="card item shadow--tl">
-  {imgUrl && (
-  <div className={clsx('card_image', styles.feature)}>
-      
-        <img className={styles.featureImage} src={imgUrl} alt={title} />
-      
+    
+    <div className={clsx('col col--4', styles.feature)}>
+      {imgUrl && (
+        <div className="text--center">
+          <img className={styles.featureImage} src={imgUrl} alt={title} />
+        </div>
+      )}
+        <a className="button button--link" href={catgUrl}>
+        <h3>{title}</h3>
+        </a>
+      <p>{description}</p>
     </div>
-  )}
-    <div class="card__body">
-      <h4>{title}</h4>
-      <small>
-        {description}
-      </small>
-    </div>
-  </div>
-</div>
-   // <div className={clsx('col col--4', styles.feature)}>
-      // {imgUrl && (
-        //<div className="text--center item shadow--tl">
-          //<img className={styles.featureImage} src={imgUrl} alt={title} />
-        // </div>
-      //)}
-     // <h3>{title}</h3>
-     // <p>{description}</p>
-   // </div>
-
+    
   );
 }
 

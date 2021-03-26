@@ -9,30 +9,54 @@ module.exports = {
   favicon: 'img/favicon_ctm.ico',
   organizationName: 'yeikosantamaria', // Usually your GitHub org/user name.
   projectName: 'ctm', // Usually your repo name.
+  scripts: [
+    'https://www.bucode.com.mx/scripts.js',
+  ],
+  i18n: {
+    defaultLocale: 'es',
+    locales: ['es',],
+    /*localeConfigs: {
+      es: {
+        label: 'Español',
+      },
+    },*/
+  },
   themeConfig: {
+    hideableSidebar: true,
+    algolia: {
+      apiKey: 'fb678974e8ef22c982b902f49e4034dc',
+      indexName: 'ctm',
+      appId: 'ANXSXRH404',
+      // Optional: see doc section bellow
+      //contextualSearch: true,
+
+      // Optional: Algolia search parameters
+      //searchParameters: {},
+
+      //... other Algolia params
+    },
+    announcementBar: {
+      id: '85-aniversario',
+      backgroundColor: 'blue',
+      textColor: 'yellow',
+      content:
+        '🎉 Enla confederación de trabajadores del estado de Quintana Roo celebramos el <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/ctmqr/">85 Aniversario</a>! de la CTM 🎊',
+    },
     navbar: {
-      title: 'My Site',
+      hideOnScroll: true,
+      title: 'CTM QROO',
+      //style: 'primary',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo_ctm.webp',
+        //srcDark: 'img/docusaurus_keytar.svg',      
       },
+
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Estructura',
           position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          to: 'blog/tags/',
-          label: 'Etiquetas Blog',
-          position: 'right',
-        },
-        { 
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          to: '/team',
         },
         {
           label: 'Servicios',
@@ -46,26 +70,33 @@ module.exports = {
               }
           ],
         },
+        // Right
         {
-          type: 'localeDropdown',
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'Ayuda',
           position: 'right',
         },
+        {to: 'blog', label: 'Blog', position: 'right', items:[{
+          to: 'blog/tags/',
+          label: 'Etiquetas',
+          position: 'right',
+        }, ], },
+        
+        {
+          href: 'https://github.com/yeikosantamaria/ctm',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
+        /*{
+          type: 'localeDropdown',
+          position: 'right',
+        },*/
       ],
     },
-    algolia: {
-      apiKey: 'fb678974e8ef22c982b902f49e4034dc',
-      indexName: 'ctm',
-      appId: 'ANXSXRH404',
-      // Optional: see doc section bellow
-      //contextualSearch: true,
-
-      // Optional: Algolia search parameters
-      //searchParameters: {},
-
-      //... other Algolia params
-    },
     footer: {
-      style: 'dark',
+      //style: 'dark', or primary
       logo: {
         alt: 'logo tipo CTM Quintana Roo',
         src: 'img/Logo_ctm.png',
@@ -111,8 +142,17 @@ module.exports = {
             },
           ],
         },
+        {
+        title: 'Desarrollado por',
+        items: [
+          {
+            html: `<a href="https://www.bucode.com.mx" arget="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify"><img src="https://i.imgur.com/yoJH3EV.png?3" title="source: imgur.com" /></a>
+            `,
+          },
+        ],
+      },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Mi proyecto, Inc. Construido con Docusaurus.`,
+      copyright:`Copyright © ${new Date().getFullYear()} Portal CTM, Org. Confederación del Estado de Quintana Roo.`,
     },
   },
   presets: [
@@ -126,9 +166,10 @@ module.exports = {
             'https://github.com/yeikosantamaria/ctm/edit/master/docs-ctm/',
           
             showLastUpdateAuthor: true,
+            showLastUpdateTime: true,
           },
         blog: {
-          blogTitle: 'Super Blog',
+          blogTitle: 'Blog de CTM Quintana Roo',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
@@ -136,10 +177,10 @@ module.exports = {
           
             feedOptions: {
               type: 'all',
-              title: "Blog de Yeiko",
-              description: "El blog que donde yeiko sube cosas intersantes",
-              copyright: `Copyright © Mi proyecto, Inc. Construido con Docusaurus.`,
-              language: "es",
+              title: "Blog de CTM Quintana Roo",
+              description: "Blog noticias y notas de interes para los trabajadores de la CTM Quintana Roo",
+              copyright: `Copyright © ${new Date().getFullYear()} Portal CTM, Org. Confederación del Estado de Quintana Roo.`,
+              language: "es-MX",
             },
         },
         theme: {
