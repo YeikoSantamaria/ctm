@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Blog de Yeiko</title>
+        <title>Blog de CTM Quintana Roo</title>
         <link>https://www.bucode.com.mx/blog</link>
-        <description>El blog que donde yeiko sube cosas intersantes</description>
+        <description>Blog noticias y notas de interes para los trabajadores de la CTM Quintana Roo</description>
         <lastBuildDate>Fri, 19 Mar 2021 09:20:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>es</language>
-        <copyright>Copyright © Mi proyecto, Inc. Construido con Docusaurus.</copyright>
+        <language>es-MX</language>
+        <copyright>Copyright © 2021 Portal CTM, Org. Confederación del Estado de Quintana Roo.</copyright>
         <item>
             <title><![CDATA[kaizala-test1]]></title>
             <link>https://www.bucode.com.mx/blog/kaizala-test1</link>

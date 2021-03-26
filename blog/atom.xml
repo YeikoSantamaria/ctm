@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.bucode.com.mx/blog</id>
-    <title>Blog de Yeiko</title>
+    <title>Blog de CTM Quintana Roo</title>
     <updated>2021-03-19T09:20:45.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.bucode.com.mx/blog"/>
-    <subtitle>El blog que donde yeiko sube cosas intersantes</subtitle>
+    <subtitle>Blog noticias y notas de interes para los trabajadores de la CTM Quintana Roo</subtitle>
     <icon>https://www.bucode.com.mx/img/favicon_ctm.ico</icon>
-    <rights>Copyright © Mi proyecto, Inc. Construido con Docusaurus.</rights>
+    <rights>Copyright © 2021 Portal CTM, Org. Confederación del Estado de Quintana Roo.</rights>
     <entry>
         <title type="html"><![CDATA[kaizala-test1]]></title>
         <id>kaizala-test1</id>
