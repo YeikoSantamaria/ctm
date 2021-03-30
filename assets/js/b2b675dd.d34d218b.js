@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[32],{104:function(o){o.exports=JSON.parse('{"permalink":"/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"previousPage":null,"nextPage":null,"blogDescription":"Blog noticias y notas de interes para los trabajadores de la CTM Quintana Roo","blogTitle":"Blog de CTM Quintana Roo"}')}}]);
