@@ -4,8 +4,8 @@
   <ShortName>CTM Quintana Roo</ShortName>
   <Description>Search CTM Quintana Roo</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://www.sindicato.com/img/favicon_ctm.ico</Image>
-  <Url type="text/html" method="get" template="https://www.sindicato.com/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://www.sindicato.com/opensearch.xml" />
-  <moz:SearchForm>https://www.sindicato.com/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://www.sindicatocancun.com/img/favicon_ctm.ico</Image>
+  <Url type="text/html" method="get" template="https://www.sindicatocancun.com/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://www.sindicatocancun.com/opensearch.xml" />
+  <moz:SearchForm>https://www.sindicatocancun.com/</moz:SearchForm>
 </OpenSearchDescription>
