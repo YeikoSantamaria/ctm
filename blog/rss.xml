@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Blog de CTM Quintana Roo</title>
-        <link>https://sindicatocancun.com/blog</link>
+        <link>https://www.sindicatocancun.com/blog</link>
         <description>Blog noticias y notas de interes para los trabajadores de la CTM Quintana Roo</description>
         <lastBuildDate>Mon, 29 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -11,28 +11,28 @@
         <copyright>Copyright © 2021 Portal CTM, Org. Confederación del Estado de Quintana Roo.</copyright>
         <item>
             <title><![CDATA[Infonavit cómo solicitar por internet la devolución de excedentes de pago]]></title>
-            <link>https://sindicatocancun.com/blog/2021/03/29/infonavit-operacion-de-devolucion</link>
+            <link>https://www.sindicatocancun.com/blog/2021/03/29/infonavit-operacion-de-devolucion</link>
             <guid>Infonavit cómo solicitar por internet la devolución de excedentes de pago</guid>
             <pubDate>Mon, 29 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[De acuerdo con el instituto, los recursos serán depositados en un lapso no mayor a 10 días]]></description>
         </item>
         <item>
             <title><![CDATA[Si me despiden, ¿me corresponde finiquito o liquidación?]]></title>
-            <link>https://sindicatocancun.com/blog/finiquitoVSliquidacion</link>
+            <link>https://www.sindicatocancun.com/blog/finiquitoVSliquidacion</link>
             <guid>finiquitoVSliquidacion</guid>
             <pubDate>Mon, 29 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Para que alguna de estas dos opciones pueda darse, deberán cumplirse una serie de condiciones.]]></description>
         </item>
         <item>
             <title><![CDATA[kaizala-test1]]></title>
-            <link>https://sindicatocancun.com/blog/kaizala-test1</link>
+            <link>https://www.sindicatocancun.com/blog/kaizala-test1</link>
             <guid>kaizala-test1</guid>
             <pubDate>Fri, 19 Mar 2021 09:20:45 GMT</pubDate>
             <description><![CDATA[* Hola este es el segundo post que publico con el fin de probar mi automatizacion con kaizala.]]></description>
         </item>
         <item>
             <title><![CDATA[Hola]]></title>
-            <link>https://sindicatocancun.com/blog/hola</link>
+            <link>https://www.sindicatocancun.com/blog/hola</link>
             <guid>hola</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[super post en donde yeiko explica lo que es hacer un super blog!]]></description>
