@@ -2,7 +2,7 @@
 module.exports = {
   title: 'CTM Quintana Roo',
   tagline: 'Unidad y trabajo',
-  url: 'https://www.sindicato.com',
+  url: 'https://www.sindicatocancun.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
