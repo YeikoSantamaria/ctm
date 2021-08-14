@@ -2,7 +2,7 @@
 module.exports = {
   title: 'CTM Quintana Roo',
   tagline: 'Unidad y trabajo',
-  url: 'https://sindicatocancun.com',
+  url: 'https://www.sindicatocancun.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -10,7 +10,7 @@ module.exports = {
   organizationName: 'yeikosantamaria', // Usually your GitHub org/user name.
   projectName: 'ctm', // Usually your repo name.
   scripts: [
-    'https://sindicatocancun.com/scripts.js',
+    'https://www.sindicatocancun.com/scripts.js',
   ],
 
   i18n: {
