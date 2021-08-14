@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://sindicatocancun.com/blog</id>
+    <id>https://wwww.sindicatocancun.com/blog</id>
     <title>Blog de CTM Quintana Roo</title>
     <updated>2021-03-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://sindicatocancun.com/blog"/>
+    <link rel="alternate" href="https://wwww.sindicatocancun.com/blog"/>
     <subtitle>Blog noticias y notas de interes para los trabajadores de la CTM Quintana Roo</subtitle>
-    <icon>https://sindicatocancun.com/img/favicon_ctm.ico</icon>
+    <icon>https://wwww.sindicatocancun.com/img/favicon_ctm.ico</icon>
     <rights>Copyright © 2021 Portal CTM, Org. Confederación del Estado de Quintana Roo.</rights>
     <entry>
         <title type="html"><![CDATA[Si me despiden, ¿me corresponde finiquito o liquidación?]]></title>
         <id>finiquitoVSliquidacion</id>
-        <link href="https://sindicatocancun.com/blog/finiquitoVSliquidacion"/>
+        <link href="https://wwww.sindicatocancun.com/blog/finiquitoVSliquidacion"/>
         <updated>2021-03-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Para que alguna de estas dos opciones pueda darse, deberán cumplirse una serie de condiciones.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Infonavit cómo solicitar por internet la devolución de excedentes de pago]]></title>
         <id>Infonavit cómo solicitar por internet la devolución de excedentes de pago</id>
-        <link href="https://sindicatocancun.com/blog/2021/03/29/infonavit-operacion-de-devolucion"/>
+        <link href="https://wwww.sindicatocancun.com/blog/2021/03/29/infonavit-operacion-de-devolucion"/>
         <updated>2021-03-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[De acuerdo con el instituto, los recursos serán depositados en un lapso no mayor a 10 días]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[kaizala-test1]]></title>
         <id>kaizala-test1</id>
-        <link href="https://sindicatocancun.com/blog/kaizala-test1"/>
+        <link href="https://wwww.sindicatocancun.com/blog/kaizala-test1"/>
         <updated>2021-03-19T09:20:45.000Z</updated>
         <summary type="html"><![CDATA[* Hola este es el segundo post que publico con el fin de probar mi automatizacion con kaizala.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hola]]></title>
         <id>hola</id>
-        <link href="https://sindicatocancun.com/blog/hola"/>
+        <link href="https://wwww.sindicatocancun.com/blog/hola"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[super post en donde yeiko explica lo que es hacer un super blog!]]></summary>
     </entry>
