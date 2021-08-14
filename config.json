@@ -1,10 +1,10 @@
 {
   "index_name": "ctm",
   "start_urls": [
-    "https://yeikosantamaria.github.io/ctm/"
+    "https://www.sindicatocancun.com.mx"
   ],
   "sitemap_urls": [
-    "https://yeikosantamaria.github.io/ctm/sitemap.xml"
+    "https://www.sindicatocancun.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

@@ -1,17 +1,97 @@
 ---
-title: Thank you!
+title: Markdown
+slug: markdown
 ---
 
-Congratulations on making it this far!
+# Titulo H1
+## Titulo H2
+### Titulo H3
+#### Titulo H4
+##### Titulo H5
+###### Titulo H6
 
-You have learned the **basics of Docusaurus** and made some changes to the **initial template**.
+<!-- italic -->
+Esto es texo en *italic*. 
 
-But Docusaurus has **much more to offer**!
+<!-- strong -->
+Esto es un texo en **negrita**.
 
-## What's next?
+<!-- strikethrough -->
+Es es un ~~Texto~~ tachado 
 
-- [Read the official documentation](https://v2.docusaurus.io/).
-- [Design and Layout your Docusaurus site](https://v2.docusaurus.io/docs/styling-layout)
-- [Integrate a search bar into your site](https://v2.docusaurus.io/docs/search)
-- [Find inspirations in Docusaurus showcase](https://v2.docusaurus.io/showcase)
-- [Get involved in the Docusaurus Community](https://v2.docusaurus.io/community/support)
+<!-- UL -->
+* manzana 
+    * manzana 2
+* naranja
+    * naranja 2
+* etc
+    * etc 2
+
+1. manzana
+    1. manzana
+2. naranja
+    2. narnaja 
+3. etc 
+
+
+
+[google.com](https://wwww.google.com)
+
+[Markdown Cheatshets](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Link personalizado")
+
+> esto es una cita
+
+---
+___
+
+<!-- para escribir codigo usar "tildes" -->
+
+`console.log(hello world)`
+
+```javascript
+
+document.addEventListener("DOMContentLoaded",()=>{
+	const source = document.getElementById(idListaOculta).childNodes,
+				list = document.getElementById(idListaMostrar),
+				btn_filtrar = document.getElementById(idBotonFiltrar),
+				txt_filtrar = document.getElementById(idInputTextFiltro);
+
+
+```
+
+```python title="hHola"
+print("hello world")
+```
+
+
+
+```html
+<h1>Hello world</h1>
+```
+
+| las tablas  | son         | cool    | 
+| ----------- |:-----------:|--------:|
+| col 3 is    | derecha     | $100    |
+| col 2 is    | centrado    |  $89    |
+| zebra       | izquierda   | $1      |
+
+
+
+|knkns|nnn|nonono|
+|---------|-------|----|
+|dde|ugu|gighi|
+
+
+
+![logo de bucode](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg
+"logo de markdown")
+
+<!-- Github MARKDOWN -->
+* [X] Task 1 
+* [ ] Task 1 
+* [X] Task 1 
+
+
+@Yeiko santamaria :smiley: :+1:
+
+https://github.com/YeikoSantamaria/Markdown/

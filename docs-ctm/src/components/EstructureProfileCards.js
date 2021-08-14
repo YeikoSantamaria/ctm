@@ -2,6 +2,9 @@ import React from 'react';
 import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
 
+// translate id. need to be changed "team" to "estructure"
+
+
 function WebsiteLink({to, children}) {
   return (
     <Link to={to}>
@@ -12,15 +15,15 @@ function WebsiteLink({to, children}) {
   );
 }
 
-function TeamProfileCard({className, name, children, githubUrl, twitterUrl, facebookUrl, }) {
+function EstructureProfileCard({className, avatarUrl, name, children, githubUrl, twitterUrl, facebookUrl}) {
   return (
     <div className={className}>
-      <div className="card card--full-height">
+      <div className="card card--full-height shadow--tl">
         <div className="card__header">
           <div className="avatar avatar--vertical">
             <img
               className="avatar__photo avatar__photo--xl"
-              src={githubUrl + '.png'}
+              src={avatarUrl} //src={githubUrl + '.png'}
               alt={`${name}'s avatar`}
             />
             <div className="avatar__intro">
@@ -32,7 +35,7 @@ function TeamProfileCard({className, name, children, githubUrl, twitterUrl, face
         <div className="card__footer">
           <div className="button-group button-group--block">
             {githubUrl && (
-              <a className="button button--secondary" href={githubUrl}>
+              <a className="button button--danger" href={githubUrl}>
                 GitHub
               </a>
             )}
@@ -53,29 +56,62 @@ function TeamProfileCard({className, name, children, githubUrl, twitterUrl, face
   );
 }
 
-function TeamProfileCardCol(props) {
+function EstructureProfileCardCol(props) {
   return (
-    <TeamProfileCard {...props} className={'col col--12 margin-bottom--lg'} />
+    <EstructureProfileCard {...props} className={'col col--12 margin-bottom--lg'} />
+  );
+}
+function EstructureProfileCardCol2(props) {
+  return (
+    <EstructureProfileCard {...props} className={'col col--6 margin-bottom--lg'} />
+  );
+}
+export function SecretariaGeneralEstructureRow() {
+  return (
+    <div className="row">
+     
+      <EstructureProfileCardCol
+        avatarUrl="img/Secretario General.jpg"
+        name="Jose I. Santamaria Casanova"
+        twitterUrl="https://twitter.com/"
+        facebookUrl="https://www.facebook.com/jose.i.santamaria.3">
+        
+        <Translate id="team.profile.Jose I Santamaria Casanova.body">
+          Obsessed open-source enthusiast 👋 Eternal amateur at everything 🤷‍♂️
+          Maintainer of Russian docs on PHP, React, Kubernetes and much more 🧐
+
+          
+        </Translate>
+      </EstructureProfileCardCol>
+      </div>
+
+      
+    
   );
 }
 
-export function ActiveTeamRow() {
+export function ComiteEstatalEstructureRow() {
   return (
     <div className="row">
-     <div className= "col col--12">
-      <TeamProfileCardCol
-        name="Yeiko Santamaria"
-        githubUrl="https://github.com/yeikosantamaria"
-        twitterUrl="https://twitter.com/yeikosantamaria"
-        facebookUrl="https://facebook.com/santamariayeiko">
-        <Translate id="team.profile.Yeiko Santamaria.body">
-          Obsessed open-source enthusiast 👋 Eternal amateur at everything 🤷‍♂️
-          Maintainer of Russian docs on PHP, React, Kubernetes and much more 🧐
+      <EstructureProfileCardCol2
+        name="Endilie Yacop Sucipto"
+        githubUrl="https://github.com/endiliey"
+        twitterUrl="https://twitter.com/endiliey">
+        <Translate id="team.profile.Endilie Yacop Sucipto.body">
+          Maintainer @docusaurus · 🔥🔥🔥
         </Translate>
-      </TeamProfileCardCol>
-      </div>
-      <div className="col col--6">
-      <TeamProfileCardCol
+      </EstructureProfileCardCol2>
+      <EstructureProfileCardCol2
+        name="Wei Gao"
+        githubUrl="https://github.com/wgao19"
+        twitterUrl="https://twitter.com/wgao19">
+        <Translate id="team.profile.Wei Gao.body">
+          🏻‍🌾 Work in progress React developer, maintains Docusaurus, writes
+          docs and spams this world with many websites.
+        </Translate>
+      </EstructureProfileCardCol2>
+      
+      <EstructureProfileCardCol2
         name="Joel Marcey"
         githubUrl="https://github.com/JoelMarcey"
         twitterUrl="https://twitter.com/joelmarcey">
@@ -83,14 +119,15 @@ export function ActiveTeamRow() {
           Docusaurus founder and now ever grateful Docusaurus cheerleader to
           those who actually write code for it.
         </Translate>
-      </TeamProfileCardCol>
-      </div>
-      <div className="col col--6">
-      <TeamProfileCardCol
-        name="Sébastien Lorber"
-        githubUrl="https://github.com/slorber"
-        twitterUrl="https://twitter.com/sebastienlorber">
-        <Translate
+      </EstructureProfileCardCol2>
+      
+
+        
+          <EstructureProfileCardCol2
+         name="Sébastien Lorber"
+           githubUrl="https://github.com/slorber"
+         twitterUrl="https://twitter.com/sebastienlorber">
+         <Translate
           id="team.profile.Sebastien Lorber.body"
           values={{
             website: <WebsiteLink to="https://sebastienlorber.com/" />,
@@ -99,11 +136,11 @@ export function ActiveTeamRow() {
           {
             'React lover since 2014. Freelance, helping Facebook ship Docusaurus v2. He writes regularly, on his {website} and {devto}.'
           }
-        </Translate>
-      </TeamProfileCardCol>
-      </div>
-
-      <TeamProfileCardCol
+          </Translate>
+          </EstructureProfileCardCol2>
+      
+      
+        <EstructureProfileCardCol2
         name="Yangshun Tay"
         githubUrl="https://github.com/yangshun"
         twitterUrl="https://twitter.com/yangshunz">
@@ -112,39 +149,16 @@ export function ActiveTeamRow() {
           Working on Docusaurus made him Facebook's unofficial part-time Open
           Source webmaster, which is an awesome role to be in.
         </Translate>
-      </TeamProfileCardCol>
+        </EstructureProfileCardCol2>
+      
     </div>
   );
 }
 
-export function HonoraryAlumniTeamRow() {
+export function FederacionesEstructureRow() {
   return (
     <div className="row">
-      <TeamProfileCardCol
-        name="Endilie Yacop Sucipto"
-        githubUrl="https://github.com/endiliey"
-        twitterUrl="https://twitter.com/endiliey">
-        <Translate id="team.profile.Endilie Yacop Sucipto.body">
-          Maintainer @docusaurus · 🔥🔥🔥
-        </Translate>
-      </TeamProfileCardCol>
-      <TeamProfileCardCol
-        name="Wei Gao"
-        githubUrl="https://github.com/wgao19"
-        twitterUrl="https://twitter.com/wgao19">
-        <Translate id="team.profile.Wei Gao.body">
-          🏻‍🌾 Work in progress React developer, maintains Docusaurus, writes
-          docs and spams this world with many websites.
-        </Translate>
-      </TeamProfileCardCol>
-    </div>
-  );
-}
-
-export function StudentFellowsTeamRow() {
-  return (
-    <div className="row">
-      <TeamProfileCardCol
+      <EstructureProfileCardCol
         name="Anshul Goyal"
         githubUrl="https://github.com/anshulrgoyal"
         twitterUrl="https://twitter.com/ar_goyal">
@@ -154,14 +168,14 @@ export function StudentFellowsTeamRow() {
           website
         </a>{' '}
         and watches Anime.
-      </TeamProfileCardCol>
-      <TeamProfileCardCol
+      </EstructureProfileCardCol>
+      <EstructureProfileCardCol
         name="Drew Alexander"
         githubUrl="https://github.com/drewbi">
         Developer and Creative, trying to gain the skills to build whatever he
         can think of.
-      </TeamProfileCardCol>
-      <TeamProfileCardCol
+      </EstructureProfileCardCol>
+      <EstructureProfileCardCol
         name="Fanny Vieira"
         githubUrl="https://github.com/fanny"
         twitterUrl="https://twitter.com/fannyvieiira">
@@ -176,8 +190,8 @@ export function StudentFellowsTeamRow() {
           Spotify playlists
         </a>
         .
-      </TeamProfileCardCol>
-      <TeamProfileCardCol
+      </EstructureProfileCardCol>
+      <EstructureProfileCardCol
         name="Sam Zhou"
         githubUrl="https://github.com/SamChou19815"
         twitterUrl="https://twitter.com/SamChou19815">
@@ -187,22 +201,8 @@ export function StudentFellowsTeamRow() {
         his own{' '}
         <a href="https://samlang.developersam.com/">programming language</a> and{' '}
         <a href="https://github.com/SamChou19815/mini-react">mini React</a>.
-      </TeamProfileCardCol>
-      <TeamProfileCardCol
-        name="Tan Teik Jun"
-        githubUrl="https://github.com/teikjun"
-        twitterUrl="https://twitter.com/teik_jun">
-        Open-source enthusiast who aims to become as awesome as the other humans
-        on this page. Working on Docusaurus brought him closer to his goal. 🌱
-      </TeamProfileCardCol>
-      <TeamProfileCardCol
-        name="Nisarag Bhatt"
-        githubUrl="https://github.com/FocalChord"
-        twitterUrl="https://twitter.com/focalchord_">
-        Fullstack web developer who loves learning new technologies and applying
-        them! Loves contributing to open source as well as writing content
-        articles and tutorials.
-      </TeamProfileCardCol>
+      </EstructureProfileCardCol>
+      
     </div>
   );
 }

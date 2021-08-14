@@ -1,65 +1,77 @@
 ---
-title: Markdown Features
+// title: Características Markdown
+// id: Caract. Markdown
+sidebar_label: Caract. Markdown
 ---
+import TOCInline from '@theme/TOCInline';
 
-Docusaurus supports the [Markdown](https://daringfireball.net/projects/markdown/syntax) syntax and has some additional features.
+<TOCInline toc={[toc[2], toc[4]]} />
+
+
+type TOCItem = {
+  // value: string;
+  id: Inicio;
+  children: TOCItem[];
+};
+
+CTM Portal soporta la syntaxis de [Markdown](https://daringfireball.net/projects/markdown/syntax) y tiene unas características adicionales.
 
 ## Front Matter
 
-Markdown documents can have associated metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
+Los documentos de Markdown pueden tener metadatos asociados en la parte superior llamados [Front Matter](https://jekyllrb.com/docs/front-matter/):
 
 ```md
 ---
-id: my-doc
-title: My document title
-description: My document description
-sidebar_label: My doc
+id: mi-doc
+title: Titulo de mi documento
+description: Descripción de mi documento
+sidebar_label: Mi doc
 ---
 
-Markdown content
+Contenido Markdown
 ```
 
-## Markdown links
+## Links Markdown
 
-Regular Markdown links are supported using url paths or relative file paths.
+Los links markdown normales se admiten mediante rutas de url o rutas de archivo relativas.
+```md
+Vamos ver las [Preguntas frecuentes](/QnA.md).
+```
 
 ```md
-Let's see how to [Create a page](/create-a-page).
+Vamos ver las [Preguntas frecuentes](./QnA.md).
 ```
+
+Vamos ver las [Preguntas frecuentes](/QnA.md).
+
+## Imagenes Markdown
+
+Se admiten imágenes Markdown regulares y otros formatos.
+
+Agregue una imagen en 'static/img/ctm.png' y utilice esta declaración Markdown:
 
 ```md
-Let's see how to [Create a page](./create-a-page.md).
+![Logo de la CTM](/img/ctm.png)
+
+![Logo de la CTM](/img/ctm.webp)
 ```
 
-Let's see how to [Create a page](./create-a-page.md).
+![Docusaurus logo](/img/logo_ctm.webp)
 
-## Markdown images
+## Bloques de codigo
 
-Regular Markdown images are supported.
-
-Add an image at `static/img/docusaurus.png` and use this Markdown declaration:
-
-```md
-![Docusaurus logo](/img/docusaurus.png)
-```
-
-![Docusaurus logo](/img/docusaurus.png)
-
-## Code Blocks
-
-Markdown code blocks are supported with Syntax highlighting.
-
-    ```jsx title="src/components/HelloDocusaurus.js"
-    function HelloDocusaurus() {
+Los bloques de código de Markdown son compatibles con el resaltado de sintaxis.
+    ```jsx title="src/components/HelloCtm.js"
+    function HelloCtm() {
         return (
-            <h1>Hello, Docusaurus!</h1>
+            <h1>Hello, CTM!</h1>
         )
     }
     ```
 
-```jsx title="src/components/HelloDocusaurus.js"
-function HelloDocusaurus() {
-  return <h1>Hello, Docusaurus!</h1>;
+```jsx title="src/components/HelloCtm.js"
+function HelloCtm() {
+  return <h1>Hello, CTM!</h1>;
 }
 ```
 

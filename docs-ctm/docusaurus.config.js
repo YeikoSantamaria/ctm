@@ -2,7 +2,7 @@
 module.exports = {
   title: 'CTM Quintana Roo',
   tagline: 'Unidad y trabajo',
-  url: 'https://www.bucode.com.mx',
+  url: 'https://www.sindicato.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -10,8 +10,9 @@ module.exports = {
   organizationName: 'yeikosantamaria', // Usually your GitHub org/user name.
   projectName: 'ctm', // Usually your repo name.
   scripts: [
-    'https://www.bucode.com.mx/scripts.js',
+    'https://www.sindicatocancun.com/scripts.js',
   ],
+
   i18n: {
     defaultLocale: 'es',
     locales: ['es',],
@@ -21,8 +22,30 @@ module.exports = {
       },
     },*/
   },
+
   themeConfig: {
     hideableSidebar: true,
+   
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+      switchConfig: {
+        darkIcon: '🌙',
+        lightIcon: '\u2600',
+        // React inline style object
+        // see https://reactjs.org/docs/dom-elements.html#style
+        darkIconStyle: {
+          marginLeft: '2px',
+         // color: 'blue',
+        },
+        lightIconStyle: {
+          marginLeft: '1px',
+         //color: '#yellow',
+        },
+      },
+    },
+
     algolia: {
       apiKey: 'fb678974e8ef22c982b902f49e4034dc',
       indexName: 'ctm',
@@ -35,6 +58,7 @@ module.exports = {
 
       //... other Algolia params
     },
+
     announcementBar: {
       id: '85-aniversario',
       backgroundColor: 'blue',
@@ -42,6 +66,7 @@ module.exports = {
       content:
         '🎉 Enla confederación de trabajadores del estado de Quintana Roo celebramos el <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/ctmqr/">85 Aniversario</a>! de la CTM 🎊',
     },
+
     navbar: {
       hideOnScroll: true,
       title: 'CTM QROO',
@@ -56,7 +81,7 @@ module.exports = {
         {
           label: 'Estructura',
           position: 'left',
-          to: '/team',
+          to: '/estructura',
         },
         {
           label: 'Servicios',
@@ -77,10 +102,10 @@ module.exports = {
           label: 'Ayuda',
           position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'right', items:[{
+        {to: 'blog', label: 'Noticas', position: 'right', items:[{to: 'blog', label: 'Noticias',},{
           to: 'blog/tags/',
           label: 'Etiquetas',
-          position: 'right',
+          
         }, ], },
         
         {
@@ -95,25 +120,26 @@ module.exports = {
         },*/
       ],
     },
+
     footer: {
       //style: 'dark', or primary
       logo: {
         alt: 'logo tipo CTM Quintana Roo',
         src: 'img/Logo_ctm.png',
-        href: 'https://opensource.facebook.com',
+        href: 'https://facebook.com/qro',
       },
       links: [
         {
-          title: 'Docs',
+          title: 'Ayuda',
           items: [
             {
-              label: 'Getting Started',
+              label: 'Inicio',
               to: 'docs/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Comunidad',
           items: [
             {
               label: 'Stack Overflow',
@@ -130,7 +156,7 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'Más',
           items: [
             {
               label: 'Blog',
@@ -170,7 +196,9 @@ module.exports = {
           },
         blog: {
           blogTitle: 'Blog de CTM Quintana Roo',
+          blogDescription: 'Blog noticias y notas de interes para los trabajadores de la CTM Quintana Roo',
           showReadingTime: true,
+          blogSidebarTitle: 'Todos los posts',
           // Please change this to your repo.
           editUrl:
             'https://github.com/yeikosantamaria/ctm/edit/master/docs-ctm/',

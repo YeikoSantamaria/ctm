@@ -48,10 +48,9 @@ function Feature({imageUrl, categoryUrl, title, description}) {
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
+          <img className={styles.featureImage} src={imgUrl} alt={title}></img></div>
       )}
-        <a className="button button--link" href={catgUrl}>
+        <a href={catgUrl}>
         <h3>{title}</h3>
         </a>
       <p>{description}</p>
@@ -95,6 +94,21 @@ export default function Home() {
             </div>
           </section>
         )}
+        <section className="conteiner">
+          <div className="row">
+            
+               <iframe
+                  className="col col--4 col--offset-4"
+                  src='https://webchat.botframework.com/embed/WorkAssesstmen?s=iTVwkeqh-RA.6j5-CwCoqR8QDJ8-Yclau-is8HMI0zP43zETTiAFjj4'
+                  min-width={400}
+                  //width="100%"
+                  height={500}
+
+                  title="QnA Chat Bot"
+                />
+            
+          </div>
+        </section>
       </main>
     </Layout>
   );
