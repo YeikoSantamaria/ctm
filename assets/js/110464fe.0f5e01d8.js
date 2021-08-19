@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{77:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"infonavit","name":"infonavit","count":1,"permalink":"/blog/tags/infonavit"}')}}]);
